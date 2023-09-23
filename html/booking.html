@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piscis Aquarium</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../css/booking.css" type="text/css">
+</head>
+
+<body>
+    <header class="top-bar">
+        <a href="index.html" class="top-brand">
+            <img src="../assets/logo.png" class="top-logo"> Piscis Aquarium
+        </a>
+        <nav class="nav-container">
+            <a href="../index.html">Home</a>
+            <a href="./booking.html">Booking</a>
+            <a href="./about.html">About</a>
+        </nav>
+    </header>
+
+    <section class="form-wrap">
+        <div class="booking-title">
+            Booking Options
+        </div>
+        <div class="booking-info-container">
+            <a class="booking-info" href="#form-booking">
+        Online Reservation
+        <svg clip-rule="evenodd" width="24" height="24" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m9.001 13.022h-3.251c-.412 0-.75.335-.75.752 0 .188.071.375.206.518 1.685 1.775 4.692 4.945 6.069 6.396.189.2.452.312.725.312.274 0 .536-.112.725-.312 1.377-1.451 4.385-4.621 6.068-6.396.136-.143.207-.33.207-.518 0-.417-.337-.752-.75-.752h-3.251v-9.02c0-.531-.47-1.002-1-1.002h-3.998c-.53 0-1 .471-1 1.002z" fill-rule="nonzero"/></svg>
+        <div class="recommended-text">
+          Recommended
+        </div>
+      </a>
+            <a class="booking-info" href="#third-party-booking">
+        Third Party Ticketing
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12.628 21.412l5.969-5.97 1.458 3.71-12.34 4.848-4.808-12.238 9.721 9.65zm-1.276-21.412h-9.352v9.453l10.625 10.547 9.375-9.375-10.648-10.625zm4.025 9.476c-.415-.415-.865-.617-1.378-.617-.578 0-1.227.241-2.171.804-.682.41-1.118.584-1.456.584-.361 0-1.083-.408-.961-1.218.052-.345.25-.697.572-1.02.652-.651 1.544-.848 2.276-.106l.744-.744c-.476-.476-1.096-.792-1.761-.792-.566 0-1.125.227-1.663.677l-.626-.627-.698.699.653.652c-.569.826-.842 2.021.076 2.938 1.011 1.011 2.188.541 3.413-.232.6-.379 1.083-.563 1.475-.563.589 0 1.18.498 1.078 1.258-.052.386-.26.763-.621 1.122-.451.451-.904.679-1.347.679-.418 0-.747-.192-1.049-.462l-.739.739c.463.458 1.082.753 1.735.753.544 0 1.087-.201 1.612-.597l.54.538.697-.697-.52-.521c.743-.896 1.157-2.209.119-3.247zm-9.678-7.476c.938 0 1.699.761 1.699 1.699 0 .938-.761 1.699-1.699 1.699-.938 0-1.699-.761-1.699-1.699 0-.938.761-1.699 1.699-1.699z"/></svg>
+      </a>
+            <a class="booking-info" href="#onsite-booking">
+        Onsite Ticket
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9.939 0l-.939 4.971v1.098c0 1.066-.933 1.931-2 1.931s-2-.865-2-1.932v-1.097l2.996-4.971h1.943zm-3.052 0l-2.887 4.971v1.098c0 1.066-.933 1.931-2 1.931s-2-.865-2-1.932v-1.097l4.874-4.971h2.013zm17.113 6.068c0 1.067-.934 1.932-2 1.932s-2-.933-2-2v-1.098l-2.887-4.902h2.014l4.873 4.971v1.097zm-10-1.168v1.098c0 1.066-.934 2.002-2 2.002-1.067 0-2-.933-2-2v-1.098l1.047-4.902h1.905l1.048 4.9zm2.004-4.9l2.994 5.002v1.098c0 1.067-.932 1.9-1.998 1.9s-2-.933-2-2v-1.098l-.939-4.902h1.943zm4.996 12v7h-18v-7h18zm2-2h-22v14h22v-14z"/></svg>
+      </a>
+        </div>
+
+        <h3 id="form-booking">Online Reservation Form</h3>
+        <div class="form-container">
+            <form>
+                <div class="form-row">
+                    <div class="form-item flex-grow">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="John Doe">
+                    </div>
+                    <div class="form-item flex-grow">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" placeholder="john@gmail.com">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-item flex-grow">
+                        <label for="date">Date</label>
+                        <input type="date" name="date">
+                    </div>
+                    <div class="form-item flex-grow">
+                        <label for="time">Time</label>
+                        <input type="time" name="time">
+                    </div>
+                    <div class="flex-grow"></div>
+                    <div class="flex-grow"></div>
+                </div>
+                <div class="form-row justify-between">
+                    <div class="form-item">
+                        <label for="ticket-count">Number of tickets</label>
+                        <input class="short-input" type="number" placeholder="3">
+                    </div>
+                    <div class="note-payment">
+                        Payment options will be emailed to given address.
+                        <br> Note that unpaid bookings will be cancelled after 1 hour.
+                    </div>
+                    <div class="form-item">
+                        <input class="btn-submit" type="submit" placeholder="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h3 id="third-party-booking">Tickets Also Available Here</h3>
+        <div class="form-container logo">
+            <a href="https://tiket.com" target="_blank">
+                <img src="../assets/tiketcom.png">
+            </a>
+            <a href="https://traveloka.com" target="_blank">
+                <img src="../assets/traveloka.png">
+            </a>
+            <a href="https://blibli.com" target="_blank">
+                <img src="../assets/blibli.png">
+            </a>
+            <a href="https://tokopedia.com" target="_blank">
+                <img src="../assets/tokopedia.png">
+            </a>
+        </div>
+        <h3 id="onsite-booking">Onsite Ticket</h3>
+        <div class="flex-col form-container">
+            <div class="onsite-text">
+                Buy tickets directly onsite
+                <br> Click to get directions from <a href="https://maps.google.com" target="_blank">Google Maps</a>
+            </div>
+            <img class="map-2d" src="../assets/map2d.png">
+        </div>
+    </section>
+
+    <footer class="bottom-bar">
+        <div>
+            Copyright &copy;s PISCIS AQUARIUM All Rights Reserved.
+        </div>
+        <div class="social-nav">
+            <div>
+                Social
+            </div>
+            <a href="https://instagram.com/devin_luize12" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/devin-luize" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

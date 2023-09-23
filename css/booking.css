@@ -1,0 +1,141 @@
+input {
+  color: #00334d;
+  background-color: #cceeff;
+  border: solid 1px black;
+  padding: 0 5px;
+  margin: 0;
+}
+
+.form-wrap {
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.booking-info-container {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  padding: 5px;
+}
+
+.booking-info {
+  border: #00334d solid 1px;
+  height: 100px;
+  width: 300px;
+  max-width: 100%;
+  background-color: #00334d;
+  color: whitesmoke;
+  border-radius: 15px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 5px;
+  fill: whitesmoke;
+  position: relative;
+}
+
+.booking-info svg {
+  fill: inherit;
+}
+
+.booking-info:hover {
+  background-color: #cceeff;
+  color: #00334d;
+  fill:#00334d
+}
+
+.booking-title {
+  font-size: x-large;
+  color: #00334d;
+  padding: 20px;
+}
+
+.recommended-text {
+  position: absolute;
+  top: 6px;
+  font-size: x-small;
+  color: crimson;
+}
+
+.form-container {
+  width: 100px;
+  border: #00334d solid 3px;
+  border-radius: 20px;
+  width: 80vw;
+  max-width: 800px;
+  color: #00334d;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  column-gap: 10px;
+  align-items: flex-end;
+}
+
+.flex-grow {
+  flex: 1;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item label {
+  font-size: x-small;
+}
+
+.short-input {
+  max-width: 120px;
+}
+
+.btn-submit {
+  height: 100%;
+  background-color: rgb(0, 210, 66);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.note-payment {
+  font-size: x-small;
+  color: crimson;
+}
+
+.logo img {
+  max-height: 50px;
+  margin: 10px;
+}
+
+.map-2d {
+  max-width: 100%;
+}
+
+.onsite-text {
+  font-size: small;
+  margin: 10px 0;
+}
+
+.onsite-text a {
+  color: #003fac;
+}
+.onsite-text a:hover {
+  color: #2281ad;
+}
